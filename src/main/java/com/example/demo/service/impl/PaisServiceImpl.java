@@ -52,6 +52,9 @@ public class PaisServiceImpl implements PaisService {
             existePais.setNome(pais.getNome());
             existePais.setArea(pais.getArea());
             existePais.setCapital(pais.getCapital());
+
+
+
             existePais.setRegiao(pais.getRegiao());
             existePais.setSubRegiao(pais.getSubRegiao());
             paisRepository.save(existePais);
